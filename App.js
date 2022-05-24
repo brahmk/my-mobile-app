@@ -2,12 +2,12 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Button } from "react-native";
 import Counter from "./src/components/counter";
 
+import Hero from "./src/components/Hero";
+
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>do not</Text>
-     
-      <Button title='press me'/> */}
+      <Hero />
 
       <Counter />
       <StatusBar style="auto" />
